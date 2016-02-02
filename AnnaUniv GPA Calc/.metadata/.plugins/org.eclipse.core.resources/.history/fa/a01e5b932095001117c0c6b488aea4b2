@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+
+</head>
+<body style="background-color:black; color:white" >
+<br /> <br /> 
+<a href="it.html"><input type="button" value="IT" /></a>
+</body>
+</html>

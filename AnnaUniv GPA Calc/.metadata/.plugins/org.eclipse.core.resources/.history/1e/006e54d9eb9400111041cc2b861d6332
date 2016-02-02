@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+
+</head>
+<body style="background-color:black; color:white" >
+<br /> Choose your semester! <br /> 
+<a href="it08sem1.html"><input type="button" value="SEM 1" /></a>&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;
+<a href="it08sem2.html"><input type="button" value="SEM 2" /></a><br />
+<a href="it08sem3.html"><input type="button" value="SEM 3" /></a>&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;
+<a href="it08sem4.html"><input type="button" value="SEM 4" /></a><br />
+<a href="it08sem5.html"><input type="button" value="SEM 5" /></a>&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;
+<a href="it08sem6.html"><input type="button" value="SEM 6" /></a><br />
+<a href="it08sem7.html"><input type="button" value="SEM 7" /></a>&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;
+<a href="it08sem8.html"><input type="button" value="SEM 8" /></a><br />
+</body>
+</html>

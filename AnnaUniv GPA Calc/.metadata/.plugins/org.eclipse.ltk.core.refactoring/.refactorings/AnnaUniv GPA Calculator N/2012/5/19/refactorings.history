@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;AnnaUniv GPA Calculator N&apos;&#x0D;&#x0A;- Original project: &apos;AnnaUniv GPA Calculator N&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AnnaUniv GPA Calculator N/src/com.xenther.calculator&#x0D;&#x0A;     com.xenther.calculator.App.java&#x0D;&#x0A;     AnnaUniv GPA Calculator N/src/snippet&#x0D;&#x0A;     snippet.Snippet.java" description="Delete elements" element1="/src&lt;snippet" element2="/src&lt;com.xenther.calculator" element3="/src&lt;com.xenther" element4="/src&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1336275617672" subPackages="false" version="1.0"/>
+</session>

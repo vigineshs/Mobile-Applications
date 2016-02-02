@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+
+</head>
+<body style="background-color:black; color:white" >
+<br /> Choose your Department! <br />
+<center>
+<a href="it.html" onmouseover="document.cont.src='it.png'" "onclick ="document.cont.src='it.png'" onMouseOut="document.cont.src='it1.png'" ><img src="it1.png" name="cont" border="0" /> </a><br/>
+
+<a href="cse.html" onmouseover="document.con.src='cse.png'" onclick="document.con.src='cse.png'" onMouseOut="document.con.src='cse1.png'"   ><img src="cse1.png" name="con" border="0" /> </a><br/>
+<a href="ece.html"  onmouseover="document.contt.src='ece.png'"  onclick="document.contt.src='ece.png'" onMouseOut="document.contt.src='ece1.png'" ><img src="ece1.png" name="contt" border="0" /> </a><br/>
+<a href="eee.html"  onmouseover="document.conts.src='eee.png'" onclick="document.conts.src='eee.png'" onMouseOut="document.conts.src='eee1.png'"  ><img src="eee1.png" name="conts" border="0" /> </a><br/>
+<a href="mech.html"  onmouseover="document.contx.src='mech.png'" onclick="document.contx.src='mech.png'" onMouseOut="document.contx.src='mech1.png'"  ><img src="mech1.png" name="contx" border="0" /> </a><br/>
+<a href="eee.html"  onmouseover="document.conts.src='eee.png'" onclick="document.conts.src='eee.png'" onMouseOut="document.conts.src='eee1.png'"  ><img src="eee1.png" name="conts" border="0" /> </a><br/>
+<a href="mech.html"  onmouseover="document.contx.src='mech.png'" onclick="document.contx.src='mech.png'" onMouseOut="document.contx.src='mech1.png'"  ><img src="mech1.png" name="contx" border="0" /> </a><br/>
+</center>
+</body>
+</html>

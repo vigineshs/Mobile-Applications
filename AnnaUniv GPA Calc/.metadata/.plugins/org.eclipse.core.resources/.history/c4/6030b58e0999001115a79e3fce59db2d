@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>GPA</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+<script type="text/javascript">
+function f()
+{
+var credits=26;
+var t=document.f1.t1.value;
+var s1=0;
+if(t == "S" || t=="s")
+s1 = 10*4;
+else if(t == "A" || t=="a")
+s1 = 9*4;
+else if(t == "B" || t=="b")
+s1 = 8*4;
+else if(t == "C" || t=="c")
+s1 = 7*4;
+else if(t == "D" || t=="d")
+s1 = 6*4;
+else if(t == "E" || t=="e")
+s1 = 5*4;
+else if(t=="U" || t=="u")
+credits-=4;
+else
+{
+window.alert("invalid grade in sub 1");
+exit(0);
+}
+
+var t=document.f1.t2.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 2");
+exit(0);
+}
+
+var t=document.f1.t3.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 3");
+exit(0);
+}
+
+var t=document.f1.t4.value;
+if(t == "S" || t=="s")
+s1 += 10*4;
+else if(t == "A" || t=="a")
+s1 += 9*4;
+else if(t == "B" || t=="b")
+s1 += 8*4;
+else if(t == "C" || t=="c")
+s1 += 7*4;
+else if(t == "D" || t=="d")
+s1 += 6*4;
+else if(t == "E" || t=="e")
+s1 += 5*4;
+else if(t=="U" || t=="u")
+credits-=4;
+else
+{
+window.alert("invalid grade in sub 4");
+exit(0);
+}
+
+var t=document.f1.t5.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 5");
+exit(0);
+}
+
+var t=document.f1.t6.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 6");
+exit(0);
+}
+
+var t=document.f1.t7.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 7");
+exit(0);
+}
+
+var t=document.f1.t8.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 8");
+exit(0);
+}
+
+var t=document.f1.t9.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 9");
+exit(0);
+}
+
+var g=s1/credits;
+if(credits==26)
+{
+window.alert("Congrats!\n"+g);
+}
+else
+window.alert(g);
+
+}
+
+</script>
+
+</head>
+<body style="background-color:black; color:white" >
+<form name="f1">
+<table>
+<tr><td>Subjects</td><td>&nbsp;&nbsp;&nbsp;credits</td><td>&nbsp;&nbsp;&nbsp;grades</td>
+<tr>
+<td>
+PQT MA 2262</td><td>&nbsp;&nbsp;&nbsp;4</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t1" /></td></tr> 
+<tr><td>DBMS CS 2255</td><td>&nbsp;&nbsp;&nbsp;3</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t2" /></td></tr> 
+<tr><td>MP & MC CS2252</td><td>&nbsp;&nbsp;&nbsp;3</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t3" /></td></tr>
+<tr><td>COA CS 2253</td> <td>&nbsp;&nbsp;&nbsp;4</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t4" /></td></tr> 
+<tr><td>OS CS 2254</td><td>&nbsp;&nbsp;&nbsp;3</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t5" /></td></tr> 
+<tr><td>Software Engg & QA IT 2251</td> <td>&nbsp;&nbsp;&nbsp;3</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t6" /></td></tr> 
+<tr><td>OS Lab CS 2257</td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t7" /></td></tr>
+<tr><td>DBMS Lab CS 2258</td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t8" /></td></tr>
+<tr><td>MicroProcessor Lab CS 2259</td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="1" name="t9" /></td></tr>
+<tr colspan="2"><td><input type="submit" onclick="f();" value="calculate" /></td></tr>
+
+</table>
+</form>
+</body>
+</html>

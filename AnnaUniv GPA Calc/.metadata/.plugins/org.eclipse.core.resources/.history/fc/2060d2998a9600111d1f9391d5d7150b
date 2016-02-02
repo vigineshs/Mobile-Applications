@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+
+</head>
+<body style="background-color:black; color:white" >
+<br /> Choose your Department! <br />
+<center>
+<a href="it.html" onmouseover="document.cont.src='it1.png'" onclick="document.cont.src='it1.png'" onMouseOut="document.cont.src='it.png'" ><img src="it.png" name="cont" border="0" /> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="cse.html"><input type="button" value="CSE" /></a><br/>
+<a href="ece.html"><input type="button" value="ECE" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="eee.html"><input type="button" value="EEE" /></a><br/>
+</center>
+</body>
+</html>

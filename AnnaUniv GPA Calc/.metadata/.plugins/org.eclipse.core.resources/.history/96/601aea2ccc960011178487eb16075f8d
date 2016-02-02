@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+<META HTTP-EQUIV=Refresh CONTENT="10; URL=home.html">
+</head>
+<br />
+<br />
+ <center><img src="logo.jpg" style="width:100px; height:100px" /><br />
+<img src="gpa.jpg" style="width:300px; height: 65px" />
+</center>
+<br /><br />
+Instructions:<br/>
+<p>1.Choose your department<br />
+2.Select the regulation<br />
+3.Choose the semester<br />
+4.Enter your grades<br />
+5.Know your GPA</p>
+<br/><br/><br/><br/>
+
+
+																		<pre>An App by
+			
+<marquee direction="right">S Srinath & S viginesh</marquee>
+																		</pre>
+
+
+</body>
+</html>

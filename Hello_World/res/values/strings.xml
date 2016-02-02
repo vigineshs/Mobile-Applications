@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">This is our App. Success! :D</string>
+    <string name="app_name">Hello_World</string>
+    <integer-array name="number">13</integer-array>
+
+</resources>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+<script type="text/javascript">
+function f()
+{
+var t=document.f1.t1.value;
+if(t == "S" || t=="s")
+var s1 = 10*4;
+document.writeln(s1);
+}
+</script>
+
+</head>
+<body style="background-color:black; color:white" >
+<form name="f1">
+<table>
+<tr>
+<td>
+Tech. English I</td> <td><input type="text" size="1" name="t1" /></td></tr> 
+<tr><td>Math I</td> <td><input type="text" size="1" name="t2" /></td></tr> 
+<tr><td>Engg. Physics I </td><td><input type="text" size="1" name="t3" /></td></tr>
+<tr><td>Engg. Chemistry I</td> <td><input type="text" size="1" name="t4" /></td></tr> 
+<tr><td>Engg. Graphics</td> <td><input type="text" size="1" name="t5" /></td></tr> 
+<tr><td>F.O.C.</td> <td><input type="text" size="1" name="t6" /></td></tr> 
+<tr><td>C.P. Lab I</td> <td><input type="text" size="1" name="t7" /></td></tr>
+<tr><td>E.P. Lab</td> <td><input type="text" size="1" name="t8" /></td></tr>
+<tr colspan="2"><td><input type="submit" onclick="f();" value="calculate" /></td></tr>
+</form>
+</body>
+</html>

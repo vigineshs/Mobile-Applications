@@ -1,0 +1,7 @@
+package snippet;
+
+public class Snippet {
+	<a href="eee.html"  onmouseover="document.conts.src='eee.png'" onclick="document.conts.src='eee.png'" onMouseOut="document.conts.src='eee1.png'"  ><img src="eee1.png" name="conts" border="0" /> </a><br/>
+	
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-1.7.0.js"></script>
+
+</head>
+<body style="background-color:black; color:white" >
+Technical English I <input type="text" size="1" name="t1" /> <br />
+Mathematics I <input type="text" size="1" name="t2" /> <br />
+Engineering Physics I <input type="text" size="1" name="t3" /> <br />
+Engineering Chemistry I <input type="text" size="1" name="t4" /> <br />
+Engineering Graphics <input type="text" size="1" name="t5" /> <br />
+Fundamentals of Computing and Programming <input type="text" size="1" name="t6" /> <br />
+Computer Practice Laboratory I <input type="text" size="1" name="t7" /> <br />
+Engineering Practices Laboratory <input type="text" size="1" name="t8" /> <br />
+</body>
+</html>

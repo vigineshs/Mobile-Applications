@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>GPA</title>
+<script type="text/javascript" charset="utf-8" src="/AnnaUniv GPA Calculator/assets/www/cordova-2.2.0.js"></script>
+<script type="text/javascript">
+function gpa(clicked_id)
+{
+var credits=27;
+var t=document.f1.t1.value;
+var s1=0;
+if(t == "S" || t=="s")
+s1 = 10*4;
+else if(t == "A" || t=="a")
+s1 = 9*4;
+else if(t == "B" || t=="b")
+s1 = 8*4;
+else if(t == "C" || t=="c")
+s1 = 7*4;
+else if(t == "D" || t=="d")
+s1 = 6*4;
+else if(t == "E" || t=="e")
+s1 = 5*4;
+else if(t=="U" || t=="u")
+credits-=4;
+else
+{
+window.alert("invalid grade in sub 1");
+exit(0);
+}
+
+var t=document.f1.t2.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 2");
+exit(0);
+}
+
+var t=document.f1.t3.value;
+if(t == "S" || t=="s")
+s1 += 10*4;
+else if(t == "A" || t=="a")
+s1 += 9*4;
+else if(t == "B" || t=="b")
+s1 += 8*4;
+else if(t == "C" || t=="c")
+s1 += 7*4;
+else if(t == "D" || t=="d")
+s1 += 6*4;
+else if(t == "E" || t=="e")
+s1 += 5*4;
+else if(t=="U" || t=="u")
+credits-=4;
+else
+{
+window.alert("invalid grade in sub 3");
+exit(0);
+}
+
+var t=document.f1.t4.value;
+if(t == "S" || t=="s")
+s1 += 10*4;
+else if(t == "A" || t=="a")
+s1 += 9*4;
+else if(t == "B" || t=="b")
+s1 += 8*4;
+else if(t == "C" || t=="c")
+s1 += 7*4;
+else if(t == "D" || t=="d")
+s1 += 6*4;
+else if(t == "E" || t=="e")
+s1 += 5*4;
+else if(t=="U" || t=="u")
+credits-=4;
+else
+{
+window.alert("invalid grade in sub 4");
+exit(0);
+}
+
+var t=document.f1.t5.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 5");
+exit(0);
+}
+
+var t=document.f1.t6.value;
+if(t == "S" || t=="s")
+s1 += 10*3;
+else if(t == "A" || t=="a")
+s1 += 9*3;
+else if(t == "B" || t=="b")
+s1 += 8*3;
+else if(t == "C" || t=="c")
+s1 += 7*3;
+else if(t == "D" || t=="d")
+s1 += 6*3;
+else if(t == "E" || t=="e")
+s1 += 5*3;
+else if(t=="U" || t=="u")
+credits-=3;
+else
+{
+window.alert("invalid grade in sub 6");
+exit(0);
+}
+
+var t=document.f1.t7.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 7");
+exit(0);
+}
+
+var t=document.f1.t8.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 8");
+exit(0);
+}
+
+var t=document.f1.t9.value;
+if(t == "S" || t=="s")
+s1 += 10*2;
+else if(t == "A" || t=="a")
+s1 += 9*2;
+else if(t == "B" || t=="b")
+s1 += 8*2;
+else if(t == "C" || t=="c")
+s1 += 7*2;
+else if(t == "D" || t=="d")
+s1 += 6*2;
+else if(t == "E" || t=="e")
+s1 += 5*2;
+else if(t=="U" || t=="u")
+credits-=2;
+else
+{
+window.alert("invalid grade in sub 9");
+exit(0);
+}
+var string = window.location.href;
+  var getit = new Array();
+  getit=string.split("?");
+  var value = unescape(getit[1]);
+
+var collect = new Array();
+collect = value.split("/");
+var cre = unescape(collect[1]);
+cre = Number(cre) + Number(credits);
+var tot = unescape(collect[0]);
+tot=Number(tot) + Number(s1);
+
+if(clicked_id==1)
+document.f1.g.value= s1/credits;
+else if(clicked_id==2)
+{ document.f1.cg.value= tot/cre; }
+else
+{ document.f1.action = "civ08sem5.html?" + tot+ "/" + cre; }
+}
+
+</script>
+
+</head>
+<body style="background-color:black; color:white" >
+<form name="f1" method="POST" action="" >
+<table>
+<tr><td>Subjects</td><td>&nbsp;&nbsp;&nbsp;credits</td><td>&nbsp;&nbsp;&nbsp;grades</td>
+<tr>
+<td>
+NM<br/><i style="color:orange">MA2264</i></td><td>&nbsp;&nbsp;&nbsp;4</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t1" /></td></tr> 
+<tr><td>SM<br/><i style="color:orange">CE2251</i></td><td>&nbsp;&nbsp;&nbsp;3</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t2" /></td></tr> 
+<tr><td>SoM<br/><i style="color:orange">CE2252</i></td><td>&nbsp;&nbsp;&nbsp;4</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t3" /></td></tr>
+<tr><td>AHE<br/><i style="color:orange">CE2253</i></td> <td>&nbsp;&nbsp;&nbsp;4</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t4" /></td></tr> 
+<tr><td>Surveying-2<br/><i style="color:orange">CE2254</i></td><td>&nbsp;&nbsp;&nbsp;3</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t5" /></td></tr> 
+<tr><td>H.E<br/><i style="color:orange">CE2255</i></td> <td>&nbsp;&nbsp;&nbsp;3</td><td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t6" /></td></tr> 
+<tr><td>SoM Lab<br/><i style="color:orange">CE2257</i></td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t7" /></td></tr>
+<tr><td>H.E Lab<br/><i style="color:orange">CE2258</i></td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t8" /></td></tr>
+<tr><td>Survey Practical-2<br/><i style="color:orange">CE2259</i></td><td>&nbsp;&nbsp;&nbsp;2</td> <td>&nbsp;&nbsp;&nbsp;<input type="text" size="2" name="t9" /></td></tr>
+<tr><td colspan="3"> <center> <i style="color:orange">GPA</i>&nbsp;&nbsp;&nbsp;<input type="text" name="g" readonly="readonly" size="25" /> </center> </td></tr>
+<tr><td colspan="3"> <center> <i style="color:orange">CGPA</i><input type="text" name="cg" readonly="readonly" size="25" /> </center> </td></tr>
+<tr> <td colspan="3"><center> <input type="button" id="1" value="   GPA   " onclick="gpa(this.id)" /> <input type="button" id="2" value="   CGPA   " onclick="gpa(this.id)"  /> </center></td></tr>
+<tr><td colspan="3"><center><input type="submit" id="3" value="  Proceed  " onclick="gpa(this.id)"  /></center></td></tr>
+</table>
+</form>
+</body>
+</html>

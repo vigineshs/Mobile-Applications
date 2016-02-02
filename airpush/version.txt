@@ -1,0 +1,4 @@
+File Name - AirpushSDK.jar
+SDK Version - 5.0
+Old Date - 30 January, 2012
+New Date - 24 August, 2012
